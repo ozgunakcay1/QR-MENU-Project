@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>QR Menu</title>
+</head>
+<body>
+    <!--Baslik-->
+    <h1 class="heading">Menümüz</h1>
+
+    <!--Butonlar-->
+    <div id="buttons" class="d-flex justify-content-center gap-3 my-4">
+        <div>
+            <label class="btn btn-outline-dark" for="all">Hepsi</label>
+            <input type="radio" name="cat" id="all" checked>
+        </div>
+
+        <div>
+            <label class="btn btn-outline-dark" for="breakfast">Kahvaltı</label>
+            <input type="radio" name="cat" id="breakfast">
+        </div>
+        <div>
+            <label class="btn btn-outline-dark" for="lunch">Öğle Yemeği</label>
+            <input type="radio" name="cat" id="lunch">
+        </div>
+        <div>
+            <label class="btn btn-outline-dark" for="shakes">İçecekler</label>
+            <input type="radio" name="cat" id="shakes">
+        </div>
+    </div>
+
+    <!--Menu Listesi-->
+    
+    <div id="menu-list">
+          <!--Kart-->
+        <!--<a href="#" id="card" class="d-flex flex-column flex-md-row text-dark gap-3 text-decoration-none" >
+            <img class="rounded shadow img-fluid" src="http://127.0.0.1:5500/images/item-2.jpeg">
+            <div>
+                 <div class="d-flex justify-content-between">
+                     <h4>Süzme Pankek</h4>
+                     <p class="text-success fw-bold">330.00₺</p>
+                </div>
+                 <p class="lead">Sütün lezzeti buttermilk pankeklerde! Yumuşacık bir dokuya sahip süzme pankeklerimizle gününüze tat katın.</p>
+            </div>
+        </a>-->
+
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
