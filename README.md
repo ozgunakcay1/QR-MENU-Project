@@ -6,5 +6,6 @@ This integration enhances the overall functionality and user experience of the a
 #Technologies 
 HTML , CSS , JavaScript , API Fetch
 
-https://github.com/user-attachments/assets/79938124-2136-4270-9da7-5c4cbfcf330d
+
+https://github.com/user-attachments/assets/7e833b8a-6b7f-40c7-a766-1ec601786790
 
